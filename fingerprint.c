@@ -9,6 +9,7 @@
 #define FG_STEP_SEND			1//向指纹头发送数据（命令）
 #define FG_STEP_WAIT			2//等待应答包
 #define FG_STEP_END				3//收到应答包
+#define TEST					4//测试用
 
 typedef struct {
     uint8_t	step;//与指纹头通讯所处状态
